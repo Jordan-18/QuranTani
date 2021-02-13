@@ -19,13 +19,13 @@
         android:textStyle="bold"
         android:textColor="@color/text" />
 
-    <ListView
-        android:id="@+id/listview"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Recycleview"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
 <!--        buat row.xml-->
 
-    </ListView>
+    </androidx.recyclerview.widget.RecyclerView>
 
 </LinearLayout>
