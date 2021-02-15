@@ -25,12 +25,35 @@ class MainActivity : AppCompatActivity() {
 
         val arrayList = ArrayList<Model>()
 
-        arrayList.add(Model("Anggur","Ayat Anggur",R.drawable.anggur))
-        arrayList.add(Model("Delima","Ayat Delima",R.drawable.delima))
-        arrayList.add(Model("Jahe","Ayat Jahe",R.drawable.jahe))
-        arrayList.add(Model("Kurma","Ayat Kurma",R.drawable.kurma))
-        arrayList.add(Model("Tin","Ayat Tin",R.drawable.tin))
-        arrayList.add(Model("Bawang","Ayat Bawang",R.drawable.bawang))
+        arrayList.add(Model(
+                "Anggur",
+                "Ayat Anggur",
+                R.drawable.anggur))
+
+        arrayList.add(Model(
+                "Delima",
+                "Ayat Delima",
+                R.drawable.delima))
+
+        arrayList.add(Model(
+                "Jahe",
+                "Ayat Jahe",
+                R.drawable.jahe))
+
+        arrayList.add(Model(
+                "Kurma",
+                "Ayat Kurma",
+                R.drawable.kurma))
+
+        arrayList.add(Model(
+                "Tin",
+                "Ayat Tin",
+                R.drawable.tin))
+
+        arrayList.add(Model(
+                "Bawang",
+                "Ayat Bawang",
+                R.drawable.bawang))
 
 
         val MyAdapter = MyAdapter2(arrayList,this)

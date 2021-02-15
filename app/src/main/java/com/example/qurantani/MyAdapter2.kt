@@ -33,57 +33,17 @@ class MyAdapter2 (val arrayList: ArrayList<Model>, val context: Context): Recycl
         holder.bindItems(arrayList[position])
 
         holder.itemView.setOnClickListener {
-//            if (position == 0){
-//                Toast.makeText(
-//                    context,
-//                    "Kamu Berada Di Anggur",
-//                    Toast.LENGTH_LONG
-//                ).show()
-//            }
-//            if (position == 1){
-//                Toast.makeText(
-//                    context,
-//                    "Kamu Berada Di Delima",
-//                    Toast.LENGTH_LONG
-//                ).show()
-//            }
-//            if (position == 2){
-//                Toast.makeText(
-//                    context,
-//                    "Kamu Berada Di Jahe",
-//                    Toast.LENGTH_LONG
-//                ).show()
-//            }
-//            if (position == 3){
-//                Toast.makeText(
-//                    context,
-//                    "Kamu Berada Di Kurma",
-//                    Toast.LENGTH_LONG
-//                ).show()
-//            }
-//            if (position == 4){
-//                Toast.makeText(
-//                    context,
-//                    "Kamu Berada Di Tin",
-//                    Toast.LENGTH_LONG
-//                ).show()
-//            }
-//            if (position == 5){
-//                Toast.makeText(
-//                    context,
-//                    "Kamu Berada Di Bawang",
-//                    Toast.LENGTH_LONG
-//                ).show()
-//            }
 
             val model = arrayList.get(position)
 //            ambil title dan desc
             var gTitle: String = model.title
+            var gDesc: String = model.desc
             var gImageView:Int = model.img
 
             val intent = Intent(context,Description::class.java)
 
             intent.putExtra("iTitle",gTitle)
+            intent.putExtra("iDesc",gDesc)
             intent.putExtra("iImageView",gImageView)
 
             context.startActivity(intent)
