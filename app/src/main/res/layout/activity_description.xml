@@ -9,16 +9,10 @@
     android:orientation="vertical"
     tools:context=".Description">
 
-    <androidx.cardview.widget.CardView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:padding="16dp"
         android:layout_height="150dp"
-        android:orientation="horizontal"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="1dp"
-        app:cardUseCompatPadding="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp">
+        android:orientation="horizontal">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -56,27 +50,12 @@
 
         </RelativeLayout>
 
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/desc_recycleView"
         android:layout_width="match_parent"
-        android:padding="16dp"
-        android:layout_height="wrap_content"
-        app:cardCornerRadius="20dp"
-        app:cardUseCompatPadding="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp">
-
-        <ExpandableListView
-            android:id="@+id/eListView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layoutDirection="rtl"
-            />
-
-
-    </androidx.cardview.widget.CardView>
-
-
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        />
 
 </LinearLayout>
