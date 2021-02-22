@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,6 +8,13 @@
     android:background="@color/slide1"
     android:orientation="vertical"
     tools:context=".Description">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/slide1"
+        android:orientation="vertical"
+        tools:context=".Description">
+
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -51,11 +58,253 @@
         </RelativeLayout>
 
     </RelativeLayout>
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/desc_recycleView"
+<!-- expandable -->
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        />
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="2dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true">
 
-</LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_desc1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/manfaat_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manfaat"
+                android:textSize="22sp"
+                android:padding="16dp"
+                android:textColor="@color/black"/>
+
+            <RelativeLayout
+                android:id="@+id/exmanfaat_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/exmanfaat_desctxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="Ini Deskripsi"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="18sp" />
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="2dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:id="@+id/linear_desc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hama_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hama"
+                android:textSize="22sp"
+                android:padding="16dp"
+                android:textColor="@color/black"/>
+
+            <RelativeLayout
+                android:id="@+id/exhama_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/exhama_desctxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ini Deskripsi"
+                    android:padding="16dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/darkgrey"/>
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="2dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:id="@+id/linear_desc3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/penanaman_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penanaman"
+                android:textSize="22sp"
+                android:padding="16dp"
+                android:textColor="@color/black"/>
+
+            <RelativeLayout
+                android:id="@+id/expenanaman_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/expenanaman_desctxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ini Deskripsi"
+                    android:padding="16dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/darkgrey"/>
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="2dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:id="@+id/linear_desc4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/PH_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penanganan Hama"
+                android:textSize="22sp"
+                android:padding="16dp"
+                android:textColor="@color/black"/>
+
+            <RelativeLayout
+                android:id="@+id/exPH_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/exPH_desctxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ini Deskripsi"
+                    android:padding="16dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/darkgrey"/>
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="2dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:id="@+id/linear_desc5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/PC_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pencatatan"
+                android:textSize="22sp"
+                android:padding="16dp"
+                android:textColor="@color/black"/>
+
+            <RelativeLayout
+                android:id="@+id/exPC_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/exPC_desctxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ini Deskripsi"
+                    android:padding="16dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/darkgrey"/>
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+</ScrollView>

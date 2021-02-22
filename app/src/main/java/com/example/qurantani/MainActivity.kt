@@ -28,31 +28,61 @@ class MainActivity : AppCompatActivity() {
         arrayList.add(Model(
                 "Anggur",
                 "Ayat Anggur",
+                "Manfaat Anggur",
+                "Hama Anggur",
+                "Cara Penanaman Anggur",
+                "Penanganan Hama Anggur",
+                "Pencatatan Anggur",
                 R.drawable.anggur))
 
         arrayList.add(Model(
                 "Delima",
                 "Ayat Delima",
+                "Manfaat Delima",
+                "Hama Delima",
+                "Cara Penanaman Delima",
+                "Penanganan Hama Delima",
+                "Pencatatan Delima",
                 R.drawable.delima))
 
         arrayList.add(Model(
                 "Jahe",
                 "Ayat Jahe",
+                "Manfaat Jahe",
+                "Hama Jahe",
+                "Cara Penanaman Jahe",
+                "Penanganan Hama jahe",
+                "Pencatatan Jahe",
                 R.drawable.jahe))
 
         arrayList.add(Model(
                 "Kurma",
                 "Ayat Kurma",
+                "Manfaat Kurma",
+                "Hama Kurma",
+                "Cara Penanaman Kurma",
+                "Penanganan Hama Kurma",
+                "Pencatatan Kurma",
                 R.drawable.kurma))
 
         arrayList.add(Model(
                 "Tin",
                 "Ayat Tin",
+                "Manfaat Tin",
+                "Hama Tin",
+                "Cara Penanaman Tin",
+                "Penanganan Hama Tin",
+                "Pencatatan Tin",
                 R.drawable.tin))
 
         arrayList.add(Model(
                 "Bawang",
                 "Ayat Bawang",
+                "Manfaat Bawang",
+                "Hama Bawang",
+                "Cara Penanaman Bawang",
+                "Penanganan Hama Bawang",
+                "Pencatatan Bawang",
                 R.drawable.bawang))
 
 

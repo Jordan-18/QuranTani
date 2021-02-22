@@ -10,14 +10,10 @@ import kotlinx.android.synthetic.main.activity_description.*
 
 class Description : AppCompatActivity() {
 
-    val versionList = ArrayList<Versions>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_description)
-
-        initData()
-        setRecyclerView()
 
         val actionBar: ActionBar? = supportActionBar
         actionBar!!.setDisplayHomeAsUpEnabled(true)
@@ -31,40 +27,23 @@ class Description : AppCompatActivity() {
         val aDesc = intent.getStringExtra("iDesc")
         val aImageView = intent.getIntExtra("iImageView", 0)
 
+        val aExmanfaat = intent.getStringExtra("iExmanfaat")
+        val aExhama = intent.getStringExtra("iExhama")
+        val aExpenanaman = intent.getStringExtra("iExpenanaman")
+        val aExPH = intent.getStringExtra("iExPH")
+        val aExPC = intent.getStringExtra("iExPC")
+
         actionBar.setTitle(aTitle)
         d_title.text = aTitle
         d_desc.text = aDesc
         img_row.setImageResource(aImageView)
 
+        exmanfaat_desctxt.text = aExmanfaat
+        exhama_desctxt.text = aExhama
+        expenanaman_desctxt.text = aExpenanaman
+        exPH_desctxt.text = aExPH
+        exPC_desctxt.text = aExPC
+
 //        end
-    }
-
-    private fun setRecyclerView(){
-        val versionAdapter = VersionAdapter(versionList)
-        desc_recycleView.adapter = versionAdapter
-        desc_recycleView.setHasFixedSize(true)
-    }
-
-    private fun initData(){
-        versionList.add(Versions(
-                "Manfaat",
-                "Ini adalah Menfaat dari Buah ini"
-        ))
-        versionList.add(Versions(
-                "Penanaman",
-                "Ini adalah penanaman dari Buah ini"
-        ))
-        versionList.add(Versions(
-                "Hama",
-                "Ini adalah Hama dari Buah ini"
-        ))
-        versionList.add(Versions(
-                "Penanganan Hama",
-                "Ini adalah cara penanagana Hama dari Buah ini"
-        ))
-        versionList.add(Versions(
-                "Pencatatan Penanaman",
-                "Ini adalah Pencatatan penanaman dari Buah ini"
-        ))
     }
 }

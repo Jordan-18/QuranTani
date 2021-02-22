@@ -40,11 +40,23 @@ class MyAdapter2 (val arrayList: ArrayList<Model>, val context: Context): Recycl
             var gDesc: String = model.desc
             var gImageView:Int = model.img
 
+            var gExmanfaat:String = model.exmanfaat
+            var gExhama:String = model.exhama
+            var gExpenanaman:String = model.expenanaman
+            var gExPH:String = model.exPH
+            var gExPC:String = model.exPC
+
             val intent = Intent(context,Description::class.java)
 
             intent.putExtra("iTitle",gTitle)
             intent.putExtra("iDesc",gDesc)
             intent.putExtra("iImageView",gImageView)
+
+            intent.putExtra("iExmanfaat",gExmanfaat)
+            intent.putExtra("iExhama",gExhama)
+            intent.putExtra("iExpenanaman",gExpenanaman)
+            intent.putExtra("iExPH",gExPH)
+            intent.putExtra("iExPC",gExPC)
 
             context.startActivity(intent)
 
