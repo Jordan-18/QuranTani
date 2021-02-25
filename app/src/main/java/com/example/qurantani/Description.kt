@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.AdapterView
 import android.widget.ExpandableListView
 import androidx.appcompat.app.ActionBar
+import androidx.core.view.isVisible
 import kotlinx.android.synthetic.main.activity_description.*
 
 class Description : AppCompatActivity() {
@@ -45,5 +46,44 @@ class Description : AppCompatActivity() {
         exPC_desctxt.text = aExPC
 
 //        end
+
+//        hide and show
+        exmanfaat_layout.visibility = View.GONE
+        linear_desc1.setOnClickListener {
+            if (exmanfaat_layout.isVisible){
+                exmanfaat_layout.visibility = View.GONE
+            }else exmanfaat_layout.visibility = View.VISIBLE
+        }
+
+
+        exhama_layout.visibility = View.GONE
+        linear_desc2.setOnClickListener {
+            if (exhama_layout.isVisible){
+                exhama_layout.visibility = View.GONE
+            }else exhama_layout.visibility = View.VISIBLE
+        }
+
+        expenanaman_layout.visibility = View.GONE
+        linear_desc3.setOnClickListener {
+            if (expenanaman_layout.isVisible){
+                expenanaman_layout.visibility = View.GONE
+            }else expenanaman_layout.visibility = View.VISIBLE
+        }
+
+        exPH_layout.visibility = View.GONE
+        linear_desc4.setOnClickListener {
+            if (exPH_layout.isVisible){
+                exPH_layout.visibility = View.GONE
+            }else exPH_layout.visibility = View.VISIBLE
+        }
+
+        exPC_layout.visibility = View.GONE
+        linear_desc5.setOnClickListener {
+            if (exPC_layout.isVisible){
+                exPC_layout.visibility = View.GONE
+            }else exPC_layout.visibility = View.VISIBLE
+        }
+
+//        end hide and show
     }
 }

@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
         arrayList.add(Model(
                 "Anggur",
-                "Ayat Anggur",
+                "وَّعِنَبًا وَّقَضْبًاۙ",
                 "Manfaat Anggur",
                 "Hama Anggur",
                 "Cara Penanaman Anggur",
@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
 
         arrayList.add(Model(
                 "Delima",
-                "Ayat Delima",
+                "فِيْهِمَا فَاكِهَةٌ وَّنَخْلٌ وَّرُمَّانٌۚ",
                 "Manfaat Delima",
                 "Hama Delima",
                 "Cara Penanaman Delima",
@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
 
         arrayList.add(Model(
                 "Kurma",
-                "Ayat Kurma",
+                "وَهُزِّيْٓ اِلَيْكِ بِجِذْعِ النَّخْلَةِ تُسٰقِطْ عَلَيْكِ رُطَبًا جَنِيًّا ۖ",
                 "Manfaat Kurma",
                 "Hama Kurma",
                 "Cara Penanaman Kurma",
@@ -67,17 +67,36 @@ class MainActivity : AppCompatActivity() {
 
         arrayList.add(Model(
                 "Tin",
-                "Ayat Tin",
-                "Manfaat Tin",
-                "Hama Tin",
-                "Cara Penanaman Tin",
-                "Penanganan Hama Tin",
-                "Pencatatan Tin",
+                "وَالتِّيۡنِ وَالزَّيۡتُوۡنِۙ",
+                "" +
+                        "Obat Anemia \n \n" +
+                        "Mengobati sulit buang air besar \n \n" +
+                        "Membantu usaha penurunan berat badan \n \n" +
+                        "Mengendalikan nafsu makan",
+                "Diptera (Musca domestica dan Dolichopus acuminatus) \n \n" +
+                        "Hymenoptera ( Oecophyla smaragdina, Lasius niger dan Solenopsis spp ) \n \n" +
+                        "Coleoptera ( Batocera rufomaculata dan Epilachna spp. ) \n \n" +
+                        "Orthoptera ( Oxya Chinensis )",
+                "Lubang tanam di lahan berukuran 30 x 30 x 20 cm ( Panjang x Lebar x Dalam ) \n \n" +
+                            "Lebih bagus ditanam pada tanah lempung serta berdrainase baik ( tanah yang tidak pernah terendam air ) \n \n" +
+                            "A. Media tumbuh bebas dari jamur dan bakteri pathogen atau sejenis parasite lainnya \n \n" +
+                            "B. Mencampur media tanam dengan tanah dari galian lubang + pupuk kendang + sekam padi ( jika ada ) \n \n" +
+                            "C. Bibit Tin disiapkan dengan merobek/ menggunting polybag. Remahkan media tanam sebelumnya secara perlahan agar perakaran tidak rusak \n \n" +
+                            "D. Lubang diisi dengan campuran media yang disiapkan, kemudian bibit tin dimasukkan dengan sedikit media sebelumnya \n \n" +
+                            "E. seluruh lubang ditutup dengan sisa campuran media ",
+                "Penggunaan Insektisida Alami \n \n" +
+                        "Penggunaan Jaring Tertutup ( Paranet ) \n \n" +
+                        "Pemanfaatan Tanaman Kucai ( Tanaman sejenis bawang )",
+
+                "Buah Tin dapat tumbuh pada iklim tropis dan sub tropis \n \n" +
+                        "Penggunaan arang sekam lebih menguntungkan karena menyuburkan tanah \n \n" +
+                        "Penyiraman tidak harus setiap hari, karena Tin menyukai tanah yang kering \n \n" +
+                        "Pemupukan dengan pupuk NPK satu sendok the setiap 2 minggu sekali",
                 R.drawable.tin))
 
         arrayList.add(Model(
                 "Bawang",
-                "Ayat Bawang",
+                "وَاِذْ قُلْتُمْ يٰمُوْسٰى لَنْ نَّصْبِرَ عَلٰى طَعَامٍ وَّاحِدٍ فَادْعُ لَنَا رَبَّكَ يُخْرِجْ لَنَا مِمَّا تُنْۢبِتُ الْاَرْضُ مِنْۢ بَقْلِهَا وَقِثَّاۤىِٕهَا وَفُوْمِهَا وَعَدَسِهَا وَبَصَلِهَا ۗ",
                 "Manfaat Bawang",
                 "Hama Bawang",
                 "Cara Penanaman Bawang",

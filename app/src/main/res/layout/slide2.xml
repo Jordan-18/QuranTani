@@ -10,7 +10,7 @@
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_gravity="center"
-        android:src="@drawable/logo_bg_putih"
+        android:src="@drawable/quran"
         android:background="@null"
         android:fitsSystemWindows="true"/>
     <TextView
