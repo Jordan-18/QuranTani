@@ -38,6 +38,7 @@ class MyAdapter2 (val arrayList: ArrayList<Model>, val context: Context): Recycl
 //            ambil title dan desc
             var gTitle: String = model.title
             var gDesc: String = model.desc
+            var gMakna: String = model.makna
             var gImageView:Int = model.img
 
             var gExmanfaat:String = model.exmanfaat
@@ -50,6 +51,7 @@ class MyAdapter2 (val arrayList: ArrayList<Model>, val context: Context): Recycl
 
             intent.putExtra("iTitle",gTitle)
             intent.putExtra("iDesc",gDesc)
+            intent.putExtra("iMakna",gMakna)
             intent.putExtra("iImageView",gImageView)
 
             intent.putExtra("iExmanfaat",gExmanfaat)

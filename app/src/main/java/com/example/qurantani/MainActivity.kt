@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         arrayList.add(Model(
                 "Anggur",
                 "وَّعِنَبًا وَّقَضْبًاۙ",
+                "dan anggur dan sayur-sayuran,",
                 "Manfaat Anggur",
                 "Hama Anggur",
                 "Cara Penanaman Anggur",
@@ -38,6 +39,7 @@ class MainActivity : AppCompatActivity() {
         arrayList.add(Model(
                 "Delima",
                 "فِيْهِمَا فَاكِهَةٌ وَّنَخْلٌ وَّرُمَّانٌۚ",
+                "Di dalam kedua surga itu ada buah-buahan, kurma dan delima.",
                 "Manfaat Delima",
                 "Hama Delima",
                 "Cara Penanaman Delima",
@@ -47,7 +49,8 @@ class MainActivity : AppCompatActivity() {
 
         arrayList.add(Model(
                 "Jahe",
-                "Ayat Jahe",
+                "وَيُسْقَوْنَ فِيْهَا كَأْسًا كَانَ مِزَاجُهَا زَنْجَبِيْلًاۚ",
+                "Dan di sana mereka diberi segelas minuman bercampur jahe.",
                 "Manfaat Jahe",
                 "Hama Jahe",
                 "Cara Penanaman Jahe",
@@ -58,6 +61,7 @@ class MainActivity : AppCompatActivity() {
         arrayList.add(Model(
                 "Kurma",
                 "وَهُزِّيْٓ اِلَيْكِ بِجِذْعِ النَّخْلَةِ تُسٰقِطْ عَلَيْكِ رُطَبًا جَنِيًّا ۖ",
+                "Dan goyanglah pangkal pohon kurma itu ke arahmu, niscaya (pohon) itu akan menggugurkan buah kurma yang masak kepadamu.",
                 "Manfaat Kurma",
                 "Hama Kurma",
                 "Cara Penanaman Kurma",
@@ -68,6 +72,7 @@ class MainActivity : AppCompatActivity() {
         arrayList.add(Model(
                 "Tin",
                 "وَالتِّيۡنِ وَالزَّيۡتُوۡنِۙ",
+                "Demi (buah) Tin dan (buah) Zaitun,",
                 "" +
                         "Obat Anemia \n \n" +
                         "Mengobati sulit buang air besar \n \n" +
@@ -97,6 +102,7 @@ class MainActivity : AppCompatActivity() {
         arrayList.add(Model(
                 "Bawang",
                 "وَاِذْ قُلْتُمْ يٰمُوْسٰى لَنْ نَّصْبِرَ عَلٰى طَعَامٍ وَّاحِدٍ فَادْعُ لَنَا رَبَّكَ يُخْرِجْ لَنَا مِمَّا تُنْۢبِتُ الْاَرْضُ مِنْۢ بَقْلِهَا وَقِثَّاۤىِٕهَا وَفُوْمِهَا وَعَدَسِهَا وَبَصَلِهَا ۗ",
+                "Dan (ingatlah), ketika kamu berkata, “Wahai Musa! Kami tidak tahan hanya (makan) dengan satu macam makanan saja, maka mohonkanlah kepada Tuhanmu untuk kami, agar Dia memberi kami apa yang ditumbuhkan bumi, seperti: sayur-mayur, mentimun, bawang putih, kacang adas dan bawang merah.….",
                 "Manfaat Bawang",
                 "Hama Bawang",
                 "Cara Penanaman Bawang",

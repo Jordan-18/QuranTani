@@ -26,6 +26,7 @@ class Description : AppCompatActivity() {
         val intent = intent
         val aTitle = intent.getStringExtra("iTitle")
         val aDesc = intent.getStringExtra("iDesc")
+        val aMakna = intent.getStringExtra("iMakna")
         val aImageView = intent.getIntExtra("iImageView", 0)
 
         val aExmanfaat = intent.getStringExtra("iExmanfaat")
@@ -37,6 +38,7 @@ class Description : AppCompatActivity() {
         actionBar.setTitle(aTitle)
         d_title.text = aTitle
         d_desc.text = aDesc
+        d_makna.text = aMakna
         img_row.setImageResource(aImageView)
 
         exmanfaat_desctxt.text = aExmanfaat
@@ -46,6 +48,26 @@ class Description : AppCompatActivity() {
         exPC_desctxt.text = aExPC
 
 //        end
+
+//        berganti ayat dengan makna
+        d_makna.visibility = View.GONE
+        d_desc.setOnClickListener {
+            if (d_makna.isVisible){
+                d_makna.visibility =View.GONE
+            }else {
+                d_makna.visibility =View.VISIBLE
+                d_desc.visibility = View.GONE
+            }
+        }
+        d_makna.setOnClickListener {
+            if (d_desc.isVisible){
+                d_desc.visibility=View.GONE
+            }else{
+                d_desc.visibility =View.VISIBLE
+                d_makna.visibility = View.GONE
+            }
+        }
+//        end pergantian
 
 //        hide and show
         exmanfaat_layout.visibility = View.GONE
