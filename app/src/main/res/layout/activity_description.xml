@@ -294,7 +294,7 @@
                 android:id="@+id/PC_desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Pencatatan"
+                android:text="Catatan"
                 android:textSize="22sp"
                 android:padding="16dp"
                 android:textColor="@color/black"/>

@@ -109,6 +109,38 @@ class MainActivity : AppCompatActivity() {
                 "Penanganan Hama Bawang",
                 "Pencatatan Bawang",
                 R.drawable.bawang))
+        arrayList.add(Model(
+                "Labu",
+                "ۗالْمُدْحَضِينَ (١٤١) فَالْتَقَمَهُ الْحُوتُ وَهُوَ مُلِيمٌ (١٤٢) فَلَوْلا أَنَّهُ كَانَ مِنَ الْمُسَبِّحِينَ (١٤٣) لَلَبِثَ فِي بَطْنِهِ إِلَى يَوْمِ يُبْعَثُونَ (١٤٤) فَنَبَذْنَاهُ بِالْعَرَاءِ وَهُوَ سَقِيمٌ (١٤٥)وَأَنْبَتْنَا عَلَيْهِ شَجَرَةً مِنْ يَقْطِينٍ( ١٤٦)",
+                "",
+                "Manfaatnya yang muda bisa di jadikan sayuran, sedangkan kulit buah masak yang telah di keringkan dapat digunakan sebagai botol, alat keperluan sehari-hari, hingga pipa. Daerah asal labu hingga saat ini masih diperdebatkan. Menurut satu sumber, labu berasal dari Afrika, sedangkan yang lainnya menyatakan bahwa labu berasal dari Asia.",
+                "mentimun, labu mengandung cucurbitacins, unsur yang berpotensi racun. Unsur kimia ini dikenal memberi rasa pahit apabila berada dalam konsentrasi tinggi, dan diketahui dapat mengakibatkan kerusakan lambung. Bahkan pada beberapa kasus yang ekstrem seseorang bisa saja meninggal setelah minum jus labu.\n \n" +
+                        "1.Busuk Daun \n " +
+                        "Gejala penyakit ini terlihat dari permukaan atas daun yaitu bercak-bercak kuning, sering agak bersudut karena dibatasi oleh tulang-tulang daun. Pada cuaca lembap pada sisi bawah bercak terdapat parang (cendawan) seperti bulu yang warnanya keunguan. \n" +
+                        "Penyebab penyakit ini adalah Pseudoperonospora cubensis (Holliday, 1980), yang saat ini masih banyak disebut dengan nama Peronospora cubensis. Merupakan parasit obligat \n" +
+                        "Faktor-faktor yang mempengaruhi penyakit dintaranya kelembapan dan akan berkembang hebat jika terdapat benyak kabut dan embun.\n \n" +
+                        "2.Embun Tepung \n " +
+                        "Gejala yang ditimbulkan oleh penyakit ini adalah permukaan daun dan batang muda terdapat lapisan putih bertepung, yang terdiri atas miselium, konidiofor dan konidium cendawan penyebab penyakit. Bercak kemudian menjadi kering dan akhirnya mongering. Jika penyakit berat, daun dan batang muda dapat mati.\n" +
+                        "Penyebab penyakit ini adalah Erysiphe cichoracearum, yang masih dikenal stadium tidak sempurnanya denagn naman Oidium tabaci. Konidiofor berbentuk tong (tabung), membentuk rantai-rantai berukurn lebih kurang 63,8 x 31,9 µm (Singh, 1969). \n " +
+                        "Pengelolaan penyakit ini dengan cara tanaman yang sakit parah dicabut dan dipendam untuk mengurangi sumber infeksi. Pengedalian gulma yang menjadi tumbuhan inang, penyemprotan dinokap atau penyerbukan belirang, atau menggunakan pestisida.\n \n" +
+                        "3.Antraknos\n" +
+                        "Gejala yang pada daun umumnya bercak mulai dari tulang daun, yang meluas menjadi bercak coklat, bersudut-sudut atau agak bulat, garis tengahnya mencapai 1 cm atau bahkan dapat lebih. Daun yang masih berkembang dapat menjadi tidak rata. Beberapa bercak dapat bersatu dan dapat menyebabkan matinya seluruh daun. Bercak pada tangkai dan batang agak mengendap, memanjang berwarna coklat tua. Bercak pada buah muncul pada saat buah mulai masak. Di sini bercak berbentuk bulat, melekuk, tampak kebasah-basahan dan dapat sangat meluas.\n " +
+                        "Penyakit ini disebabkan oleh Colletotrichum langenarium. Konidium hialin, bersel satu, jorong atau bulat telur, dengan ukuran 13-19 x 4-6 µm.\n" +
+                        "\tPengelolaan dapat dilakukan dengan cara menanam benih yang sehat, mengadakan pergiliran tanaman, atau dengan penyemprotan fungisida\n \n" +
+                        "4.\tBusuk Bunga" +
+                        "Gejala timbul sehabis berkembang mahkota bunga ditumbuhi oleh cendawan putih yang lebat, yang terutama terdiri dari konidiofor yang masih muda. “kepala-kepala” konidium berkembang dengan cepat, setelah masak berwarna hitam ungu, berkilat seperti logam.\n" +
+                        "Penyebab penyakit ini adalah kapang Choanephora cucurbitarum, anggota dari suku Choanephoraceae. Cendawan membentuk koidium dan sporangiofor. Konidiofor tidak bercabang, mempunyai kepala yang bulat, dan muncul banyak kapitulum bulat membawa sterigma.\n \n" +
+                        "5.\tLayu Bakteri\n" +
+                        "Gejala pertama dari penyakit ini adalah menjadi lemasnya satu daun. Kemudian lebih banyak lagi daun yang layu, sementara itu warnanya tetap hijau. Akhirnya kelayuan menjadi lebih parah, tanaman keriput dan mati. Bekteri menyumbat pembuluh-pembuluh kayu dalam batang\n" +
+                        "Penyebab penyakit ini adalah bakteri Erwinia tracheiphila. Berbentuk batang, bergerak dengan 4-8 ulu cambuk peritrich. Bakteri membentuk kapsula, konidia berbentuk jala, kecil, bulat, halus, mengkilat, putih dan lekat. Bakteri dapat bertahan dalam badan kumbang mentimun, dan kumbang inilah yang memencarkan penyakit. Pengelolaan dilakukan dengan pengendalian kumbang mentimun.\n" +
+                        "6.\tMosaik\n " +
+                        "Gejala pada tanaman sakit mempunyai daun-daun yang mempunyai belang hijau tua dan hiaju muda, dengan bermacam-macam corak. Bentuknya dapat berubah, berkerut, kerdil, atau tepinya menggulung ke bawah. Buah mengalami bercak-bercak hijau pucat atau putih, bersaling dengan bercak tua yang agak menonjol ke luar. Jika tanaman bertambah tua gambaran mosaik makin kabur. Ruas-ruas yang muda terhambat pertumbuhannya, sehingga daun-daun ujung membentuk roset.\n " +
+                        "Penyebab mosaik mentimun adalah virus misaic mentimun (Cucumber Mosaic Virus, CMV) yang mempunyai banyak strain virus. Sifat fisik macammacam strain banayk persamaannya. Titik inaktivasi pemanasannya adalah 55-70 oC, dapat bertahan dalam sap tumbuhan sakit 1-10 hari\n" +
+                        "Virus dapat ditularkan secara mekanis dengan gosokan, atau lebih dari 60 serangga, khususnya kutu-kutu daun secara non persisten, dan sering kali dapat terbawa olah biji. Penyakit mosaik mentimun sukar dikendalikan karena banyaknya tumbuhan inang virus. Untuk mengurangi penularan secara mekanik oleh manusia, diusahakan tidak memegang tanaman terlalu keras, khususnya tanaman-tanaman yang masih kecil atau dengan mencuci tangan.",
+                "Cara Penanaman Labu",
+                "Penanganan Hama Labu",
+                "Yaqtin (lagenaria siceraria) termasuk kelompok labu-labuan (Cucurbitaceae) . Labu yang dikenal dengan berbagai nama, seperti clabash, bottlr gourd, opo squash, atau long melon, ditanam untuk dimanfaatkan buahnya, baik yang masih muda maupun yang sudah masak. Dalam Bahasa Arab, kata Yaqţīn mencakup semua tumbuhan tak bercabang (dalam artian seperti tumbuhan merambat), termasuk di dalamnya semangka dan mentimun.",
+                R.drawable.bawang))
 
 
         val MyAdapter = MyAdapter2(arrayList,this)
