@@ -45,6 +45,37 @@
                 android:textSize="26sp"
                 android:textStyle="bold" />
 
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_sound"
+                android:src="@drawable/volume"
+                android:rotation="-35"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="20dp"
+                android:layout_below="@+id/d_title"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_show"
+                android:src="@drawable/eye"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="80dp"
+                android:layout_below="@+id/d_title"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_hide"
+                android:src="@drawable/hide"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="80dp"
+                android:layout_below="@+id/d_title"/>
+
             <TextView
                 android:id="@+id/d_desc"
                 android:layout_width="wrap_content"
@@ -61,7 +92,7 @@
                 android:layout_below="@id/img_row"
                 android:layout_marginStart="90dp"/>
 
-            <TextView
+            <me.biubiubiu.justifytext.library.JustifyTextView
                 android:id="@+id/d_makna"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -108,11 +139,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <TextView
+                <me.biubiubiu.justifytext.library.JustifyTextView
                     android:id="@+id/exmanfaat_desctxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="16dp"
+                    android:layout_margin="16dp"
                     android:text="Ini Deskripsi"
                     android:textColor="@color/darkgrey"
                     android:textSize="18sp" />
@@ -157,12 +188,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <TextView
+                <me.biubiubiu.justifytext.library.JustifyTextView
                     android:id="@+id/exhama_desctxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Ini Deskripsi"
-                    android:padding="16dp"
+                    android:layout_margin="16dp"
                     android:textSize="18sp"
                     android:textColor="@color/darkgrey"/>
 
@@ -206,12 +237,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <TextView
+                <me.biubiubiu.justifytext.library.JustifyTextView
                     android:id="@+id/expenanaman_desctxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Ini Deskripsi"
-                    android:padding="16dp"
+                    android:layout_margin="16dp"
                     android:textSize="18sp"
                     android:textColor="@color/darkgrey"/>
 
@@ -255,12 +286,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <TextView
+                <me.biubiubiu.justifytext.library.JustifyTextView
                     android:id="@+id/exPH_desctxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Ini Deskripsi"
-                    android:padding="16dp"
+                    android:layout_margin="16dp"
                     android:textSize="18sp"
                     android:textColor="@color/darkgrey"/>
 
@@ -304,12 +335,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <TextView
+                <me.biubiubiu.justifytext.library.JustifyTextView
                     android:id="@+id/exPC_desctxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Ini Deskripsi"
-                    android:padding="16dp"
+                    android:layout_margin="16dp"
                     android:textSize="18sp"
                     android:textColor="@color/darkgrey"/>
 

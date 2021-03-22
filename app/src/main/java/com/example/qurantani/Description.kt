@@ -69,6 +69,20 @@ class Description : AppCompatActivity() {
         }
 //        end pergantian
 
+//        hide and show ayat
+        img_hide.visibility = View.GONE
+        img_show.setOnClickListener {
+                img_hide.visibility =View.VISIBLE
+                d_desc.visibility = View.GONE
+                img_show.visibility = View.GONE
+        }
+        img_hide.setOnClickListener {
+                img_hide.visibility = View.GONE
+                d_desc.visibility = View.VISIBLE
+                img_show.visibility = View.VISIBLE
+        }
+//        selesai hide n show ayat
+
 //        hide and show
         exmanfaat_layout.visibility = View.GONE
         linear_desc1.setOnClickListener {
